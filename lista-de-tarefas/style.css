@@ -71,3 +71,10 @@ h1 {
   display: flex;
   margin-bottom: 10px;
 }
+
+.itemTask {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 5px;
+}

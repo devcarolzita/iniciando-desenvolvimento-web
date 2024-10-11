@@ -36,4 +36,28 @@ console.log(listaDeTarefas);
 
 listaDeTarefas.appendChild(itemDaLista);
 
+// Para remover um item da lista
+itemList.remove();
+//--------------------------------
+//1. Criar o elemento utilizando createElement
+//2. Identificar qual elemento quer criar para adicionar no createElement, entender se precisa de texto ou cor.
+//3.Recuperar um elemento no html para adicionar esse item criado
+//4.Adicionar o item criado nesse elemento recuperado.
 
+//1->createElement & 2identificar o elemento
+const btnDelete = document.createElement('button');
+console.log(btnDelete);
+btnDelete.innerText = 'Deletar tudo';
+
+//3
+const corpoSite = document.body;
+
+//4
+corpoSite.appendChild(btnDelete);
+
+// ------------------------------------------------------
+//elemento.addEventListener('click', oqueEuQueroQueAconteca)
+btnDelete.addEventListener('click', function(){
+    console.log('teste da função');
+    list.remove();
+})
