@@ -1,0 +1,17 @@
+.container {
+    width: 200px;
+    border: 2px solid green;
+    background-color: #e4e4e4;
+    margin: 30px;
+}
+.box {
+    border: 2px dashed red;
+    padding: 15px;
+    margin: 0;
+    background-color: #fff;
+}
+.box p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #000;
+}
